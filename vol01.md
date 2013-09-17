@@ -61,7 +61,30 @@ func main() {
 * 平年の場合は、1月1日を1日目、12月31日を365日目とする
 * うるう年の場合は、2月29日があるので、12月31日が366日目となる
 
-テストの書き方は速習A tour of Goの最終ページにあります。
+テストの書き方は速習A tour of Goの最終ページにありますが、
+1つだけうるう年判定のサンプルを置きます(dayofyear_test.go)。
+```go
+package main
+
+import (
+	"testing"
+)
+
+func TestIsLeapYear(t *testing.T) {
+	if IsLeapYear(2013) {
+		t.Error("2013 is not a leap-year!")
+	}
+	if IsLeapYear(2100) {
+		t.Error("2100 is not a leap-year!")
+	}
+	if !IsLeapYear(2012) {
+		t.Error("2012 is a leap-year!")
+	}
+	if !IsLeapYear(2000) {
+		t.Error("2000 is a leap-year!")
+	}
+}
+```
 
 
 ### HTTPでJSONデータの取得
@@ -73,7 +96,8 @@ http://www.oreilly.co.jp/books/9784873115948/biblio.json
 ヒント1: JSONからGoのstructにマッピングさせる方法は下記をご参照ください。
 [GoでJSONシリアライズ・デシリアライズ](http://qiita.com/todogzm/items/b2250aa2acc12cdd50f7)
 
-ヒント2: HTTPクライアントは標準パッケージに含まれていますので、探してみてください。
+ヒント2: HTTPクライアントは[net/httpパッケージ](http://golang.org/pkg/net/http/)をご参照ください。
+特にExamplesでJSONへのデシリアライズに必要な[]bytesの取得までが書かれています。
 
 上記ヒントと、速習A tour of Goの17ページまでで解けると思います。
 

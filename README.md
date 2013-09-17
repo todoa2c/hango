@@ -3,5 +3,5 @@
 
 大阪Go勉強会用の資料をアップしていきます。
 
-* [第1回](https://github.com/todoa2c/hango/vol01.md)
+* [第1回](https://github.com/todoa2c/hango/blob/master/vol01.md)
 

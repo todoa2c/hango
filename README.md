@@ -1,7 +1,7 @@
-‘åãGo•×‹­‰ï
+å¤§é˜ªGoå‹‰å¼·ä¼š
 ============
 
-‘åãGo•×‹­‰ï—p‚ÌŽ‘—¿‚ðƒAƒbƒv‚µ‚Ä‚¢‚«‚Ü‚·B
+å¤§é˜ªGoå‹‰å¼·ä¼šç”¨ã®è³‡æ–™ã‚’ã‚¢ãƒƒãƒ—ã—ã¦ã„ãã¾ã™ã€‚
 
-* [‘æ1‰ñ](https://github.com/todoa2c/hango/vol01.md)
+* [ç¬¬1å›ž](https://github.com/todoa2c/hango/vol01.md)
 

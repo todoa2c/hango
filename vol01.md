@@ -114,3 +114,8 @@ http://www.oreilly.co.jp/books/9784873115948/biblio.json
 
 ヒント1: mainのgoroutineは、自分の処理が終了次第、他goroutineが動いていてもプログラムを終了します。
 
+
+## 参考までに解答例
+解答例をアップしました。
+https://github.com/todoa2c/hango/tree/master/vol01
+

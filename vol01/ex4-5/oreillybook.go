@@ -11,18 +11,18 @@ import (
 
 // Oreillyの書籍情報
 type Book struct {
-	Title        string   "json:title"
-	PictureLarge string   "json:picture_large"
-	Picture      string   "json:picture"
-	PictureSmall string   "json:picture_small"
-	Authors      []string "json:authors"
-	Released     string   "json:released"
-	Pages        int      "json:pages"
-	Price        int      "json:price"
-	EbookPrice   int      "ebook_price"
-	Original     string   "json:original"
-	OriginalUrl  string   "json:original_url"
-	ISBN         string   "json:isbn"
+	Title        string   `json:"title"`
+	PictureLarge string   `json:"picture_large"`
+	Picture      string   `json:"picture"`
+	PictureSmall string   `json:"picture_small"`
+	Authors      []string `json:"authors"`
+	Released     string   `json:"released"`
+	Pages        int      `json:"pages"`
+	Price        int      `json:"price"`
+	EbookPrice   int      `json:"ebook_price"`
+	Original     string   `json:"original"`
+	OriginalUrl  string   `json:"original_url"`
+	ISBN         string   `json:"isbn"`
 }
 
 // OreillyBookはisbnに該当するOreillyの書籍情報を返す

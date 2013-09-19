@@ -6,7 +6,7 @@
 
 
 ## 資料
-1. 第1回大阪Go勉強会 Go紹介
+1. [第1回大阪Go勉強会 Go紹介](http://www.slideshare.net/AtsushiKanaya/1go)
 1. [速習A tour of Go](http://www.slideshare.net/AtsushiKanaya/a-tour-of-go-26263016)
 1. GDG Kobeでの活動内容の紹介(特にGo言語関連)
 

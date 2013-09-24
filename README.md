@@ -5,3 +5,4 @@
 
 * [第1回](https://github.com/todoa2c/hango/blob/master/vol01.md)
 
+合わせて[大阪Go勉強会のFacebookページ](https://www.facebook.com/osakagolang)も見てみてください。
